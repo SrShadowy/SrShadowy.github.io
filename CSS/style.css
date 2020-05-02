@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(199, 199, 199);
+    font-family: 'Courier New', Courier, monospace;
+}
+#Frase{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: #232426;
+    box-shadow: 0px 20px 5px rgb(0, 0, 0);
+}
+#Frase h2 {
+    font-size: 35px;
+}
+#corpo{
+    background: #3b3b3b;
+}
+#profile img {
+    width:  200px;
+    height: 200px;
+    border-radius: 60%;
+    box-shadow: 0px 10px 10px rgb(10, 10, 10)
+  }
+#profile
+{
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+#skill{
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+#skill h2{ text-shadow: 0px 10px 10px rgb(10, 10, 10) }
+#skill img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+body{background: #232426;}
+
+#Projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 5% ;
+}
+.square{
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 1%;
+    float: none;
+    position: relative;
+}
+.block{
+  position: absolute;
+  text-align: center;
+  background: #1a1a1a;
+  width: 100%;
+  height: 100%;
+}
+.block h1{ padding: 35px;}
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+ }
+ .block p
+ {
+    padding: 5%;
+ }
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  background: #222;
+  color: #FFF;
+ }
+ footer{
+    padding: 5px;
+    background: #565759;
+    align-items: center;
+    text-align: center;
+ }
+ #footer-icons img{
+    height: 25px;
+    width: 25px;
+ }
